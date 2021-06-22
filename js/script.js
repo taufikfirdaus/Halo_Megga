@@ -6,7 +6,7 @@ let doi;
 if (url.searchParams.get('in') != null) {
   doi = url.searchParams.get('in');
 } else {
-  doi = "Fita Dwi febrianty";
+  doi = "meeegggaaaa";
 }
 
 let footer = document.getElementById("credit");
