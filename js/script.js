@@ -6,7 +6,7 @@ let doi;
 if (url.searchParams.get('in') != null) {
   doi = url.searchParams.get('in');
 } else {
-  doi = "meeegggaaaa";
+  doi = "Anjar Mega Dewi Ursila";
 }
 
 let footer = document.getElementById("credit");
@@ -61,7 +61,7 @@ function selesai() {
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
-    title: 'halo Megga :)',
+    title: 'halo mbak Megga :)',
     html: `Selamat ${time()}, Kamu udah ${makan()}?`,
     timer: 2500,
     timerProgressBar: true,
