@@ -56,7 +56,10 @@ function selesai() {
   teks.classList.remove('d-none');  
 }
 
-
+var el = document.getElementById("audioNotifikasi"); 
+function playAudio() { 
+  el.play(); 
+} 
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
